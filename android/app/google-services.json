@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "624470107017",
+    "firebase_url": "https://cetalks-new.firebaseio.com",
+    "project_id": "cetalks-new",
+    "storage_bucket": "cetalks-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624470107017:android:f54885a3efe3572b29f758",
+        "android_client_info": {
+          "package_name": "com.cet.cetalksnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624470107017-2n0ch44e69vvs7s3hvr1nvgvlc5qtuis.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cet.cetalksnew",
+            "certificate_hash": "c5a268abba96a05580e22d1d1415ffbe5153e7c0"
+          }
+        },
+        {
+          "client_id": "624470107017-so21341857dak8o3dkghhkg0ukt8u9fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUisxPS9VfHss3opWwcWcQfGMSJa1qHB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624470107017-so21341857dak8o3dkghhkg0ukt8u9fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624470107017:android:50f5963d9bbac01f29f758",
+        "android_client_info": {
+          "package_name": "com.cetalks.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624470107017-so21341857dak8o3dkghhkg0ukt8u9fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUisxPS9VfHss3opWwcWcQfGMSJa1qHB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624470107017-so21341857dak8o3dkghhkg0ukt8u9fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624470107017:android:26b640d0bf48e1d929f758",
+        "android_client_info": {
+          "package_name": "com.cetalks.radio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624470107017-05e41ii41k23dbuc1pu9imubqpo66fdq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cetalks.radio",
+            "certificate_hash": "c5a268abba96a05580e22d1d1415ffbe5153e7c0"
+          }
+        },
+        {
+          "client_id": "624470107017-so21341857dak8o3dkghhkg0ukt8u9fs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUisxPS9VfHss3opWwcWcQfGMSJa1qHB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624470107017-so21341857dak8o3dkghhkg0ukt8u9fs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
