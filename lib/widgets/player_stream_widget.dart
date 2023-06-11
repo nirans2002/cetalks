@@ -19,7 +19,7 @@ class PlayerStreamWidget extends StatelessWidget {
       stream: AudioService.playbackStateStream,
       builder: (context, snapshot) {
         final AudioProcessingState processingState =
-            snapshot.data?.processingState ?? AudioProcessingState.stopped;
+            snapshot.data?.processingState ?? AudioProcessingState.idle;
 
         final streamMedia = [
           MediaItem(
@@ -43,8 +43,8 @@ class PlayerStreamWidget extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     // IF NO AUDIO IS PLAYING START THE TASK
-                    if (processingState == AudioProcessingState.none ||
-                        processingState == AudioProcessingState.stopped) ...{
+                    if (processingState == AudioProcessingState.buffering ||
+                        processingState == AudioProcessingState.idle) ...{
                       Center(
                         child: IconButton(
                           icon: Icon(
@@ -116,7 +116,7 @@ class PlayerStreamWidget extends StatelessWidget {
                         child: IconButton(
                           icon: Icon(Icons.pause),
                           iconSize: 100.0,
-                          color: Theme.of(context).accentColor,
+                          color: Theme.of(context).colorScheme.secondary,
                           onPressed: AudioService.pause,
                         ),
                       )
@@ -132,7 +132,7 @@ class PlayerStreamWidget extends StatelessWidget {
                             ? IconButton(
                                 icon: Icon(Icons.play_arrow),
                                 iconSize: 110.0,
-                                color: Theme.of(context).accentColor,
+                                color: Theme.of(context).colorScheme.secondary,
                                 onPressed: AudioService.play,
                               )
 
@@ -142,7 +142,7 @@ class PlayerStreamWidget extends StatelessWidget {
                                   Icons.play_arrow,
                                 ),
                                 iconSize: 110.0,
-                                color: Theme.of(context).accentColor,
+                                color: Theme.of(context).colorScheme.secondary,
                                 onPressed: () async {
                                   Fluttertoast.showToast(msg: 'Buffering');
 
